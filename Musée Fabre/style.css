@@ -1,0 +1,60 @@
+html {
+    font-size: 16px;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    gap :1rem;
+}
+
+header > section {
+    display: flex;
+    gap : 1rem;
+}
+
+.header__section-menu {
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+
+}
+
+#logo {
+    max-width: 10rem; 
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #D0D6B3;
+}
+
+nav {
+    background-color: #D0D6B3;
+    color: #21272A;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+
+button {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    background-color: #143109;
+    opacity:75% ;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+        }
+
+
+.main__section-TopImg {
+    max-width: 30rem; 
+}
